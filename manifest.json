@@ -1,0 +1,17 @@
+{ 
+    "manifest_version": 2, 
+    "name": "TabJokes", 
+    "description": "Before you jump back into the web after opening a new tab, go ahead and take a break with some cheesy jokes!", 
+    "version": "1", 
+    "author": "Matthew Barnum", 
+    "browser_action": 
+    {   
+        "default_title": "Have a good day" 
+    },
+    "icons": { "128": "tapicon.png" },
+    "chrome_url_overrides" : 
+    {  
+        "newtab": "newtab.html"
+    },
+    "permissions": ["activeTab"]
+}
